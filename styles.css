@@ -4,3 +4,25 @@
   display: block;
   border-radius: 50%;
 }
+
+.moveset-btn-wrap {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.moveset-btn {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.active-btn {
+  border-bottom: 2px solid #000;
+}
+
+.img-wrap {
+  text-align: center;
+}
